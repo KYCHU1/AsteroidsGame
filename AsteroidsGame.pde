@@ -33,10 +33,10 @@ public void draw()
 
 public void keyPressed(){
   if (key == 's'){
-    jenny.myYspeed = jenny.myYspeed +1;
+    jenny.accelerate(-1);
   }
   if (key == 'w'){
-    jenny.myYspeed = jenny.myYspeed -1;
+    jenny.accelerate(1);
   }
   if (key == 'a'){
     jenny.myPointDirection = jenny.myPointDirection -20;
